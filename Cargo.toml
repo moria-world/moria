@@ -1,0 +1,20 @@
+[package]
+name = "moria"
+version = "0.0.0"
+authors = ["Chojan Shang <psiace@outlook.com>"]
+edition = "2018"
+description = "(WIP) An experimental programming language with register-based virtual machine."
+keywords = ["moria", "language", "virtual-machine"]
+categories = ["parser-implementations", "emulators"]
+license = "MIT/Apache-2.0"
+repository = "https://github.com/moria-world/moria"
+readme = "README.md"
+
+include = [
+  "Cargo.toml",
+  "LICENSE-APACHE",
+  "LICENSE-MIT",
+  "src/**/*"
+]
+
+[dependencies]
