@@ -17,4 +17,14 @@ include = [
   "src/**/*"
 ]
 
+[lib]
+name = "moria"
+path = "src/lib.rs"
+
 [dependencies]
+
+[dev-dependencies]
+
+[[bin]]
+doc = false
+name = "moria"
